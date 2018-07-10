@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Code Wars Exercise Collection</title>
+  </head>
+
+  <body>
+    <input id="input"></input>
+    <button onclick="openOrSenior(data)">Submit</button>
+    <p id="demo"></p>
+
+    <script>
+      var data = getElementById('input');
+      var output = getElementById('demo');
+
+      function openOrSenior(data){
+            var newMember = [];
+
+              for (var index = 0; index < data.length; index++)
+                {
+                  var isOld = (data[index][0] >= 55) ? true : false;
+                  var isHandicaped = (data[index][1] > 7) ? true : false;
+                  var isSenior = (isOld && isHandicaped) ? newMember[index] = 'Senior':
+                  newMember[index] = 'Open';
+                }
+
+          return newMember
+      }
+</script>
+  </body>
+</html>
