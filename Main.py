@@ -1,11 +1,17 @@
-flask import Flask, flash, render_template, redirect
+#!/usr/bin/python 2.7
+from flask import Flask, flash, render_template, redirect
 
 app = Flask(__name__)
 
 
 @app.route('/')
-def Homepage():
+def menu():
     return render_template('Menu.html')
+
+
+@app.route('/newmember')
+def new_member_checker_exercise():
+    return render_template('newMember.html')
 
 
 @app.errorhandler(404)
