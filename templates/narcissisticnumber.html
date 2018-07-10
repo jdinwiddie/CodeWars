@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Code Wars Exercise Collection</title>
+  </head>
+
+  <body>
+    <h1>Narcissitic Number Exercise</h1>
+    <p>
+        A Narcissistic Number is a number which is the sum of its own digits, each raised to the power of the number of digits.
+      </br></br>
+      For example, take 153 (3 digits):
+      </br></br>
+          1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153
+      and 1634 (4 digits):
+      </br></br>
+          1^4 + 6^4 + 3^4 + 4^4 = 1 + 1296 + 81 + 256 = 1634
+      The Challenge:
+      </br></br>
+      Your code must return true or false depending upon whether the given number is a Narcissistic number.
+      </br></br>
+      Error checking for text strings or other invalid inputs is not required, only valid integers will be passed into the function.
+      </br></br></br>
+    </p>
+    <h2>Hit the button below to show my results</h2>
+    <p>Example: Is number 371 a narcissistic number?</p>
+
+    <button onclick="narcissistic()">Submit</button>
+    <p id="demo"></p>
+
+    <script>
+      function narcissistic( value ) {
+        var value = 371;
+        var integerString = value.toString();
+        var sumOfNumbers = 0;
+        var toNumber;
+
+          for (var index = 0; index < integerString.length; index++)
+            {
+              toNumber = Number(integerString[index]);
+              sumOfNumbers += Math.pow(toNumber, integerString.length);
+            }
+        var forDisplayOnly = (sumOfNumbers === value) ? true : false;
+        document.getElementById('demo').innerHTML = forDisplayOnly;
+
+        return forDisplayOnly
+      }
+</script>
+  </body>
+</html>
