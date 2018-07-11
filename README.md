@@ -20,8 +20,7 @@ As for
   * Vagrant Virtual Machine Installed.
 
 ## List of Exercises:
-  * New Member Checker:
-   * https://github.com/jdinwiddie/CodeWars/blob/master/templates/newMember.html
+  * <a href="https://github.com/jdinwiddie/CodeWars/blob/master/templates/newMember.html">New Member Checker</a>
 
 ## Instructions:
 * This is more just used as a coding sample, but if you want the application to run, follow the steps below:
