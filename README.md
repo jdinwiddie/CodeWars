@@ -6,13 +6,13 @@ as you like, but my goal is to complete at least one every day.  I used Python/F
 as the background originally in hopes to throw in some SQL exercises as well, but
 I might not end up doing that.  I'm just keeping all my doors open right now.
 
-This is used for personal growth; however, you are welcome to check out my code.  I keep it updates in the [List of Exercise](#listofexercises) section.
+This is used for personal growth; however, you are welcome to check out my code.  I publish each exercise in the [Exercises](#exercises) section.
 
 ## Table of Contents:
 
 * [Requirements](#requirements)
 * [Instructions](#instructions)
-* [List of Exercises](#list of exercises)
+* [List of Exercises](#exercises)
 * [Creator](#creators)
 
 ## Requirements:
@@ -20,7 +20,7 @@ This is used for personal growth; however, you are welcome to check out my code.
   * Virtualbox installed.
   * Vagrant Virtual Machine Installed.
 
-## List of Exercises:
+## Exercises:
   * [New Member Checker](https://github.com/jdinwiddie/CodeWars/blob/master/templates/newMember.html)
   * [Narcissitic Number Checker](https://github.com/jdinwiddie/CodeWars/blob/master/templates/narcissisticnumber.html)
   * [IQ Test Number Finder](https://github.com/jdinwiddie/CodeWars/blob/master/templates/iqtest.html)
