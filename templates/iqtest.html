@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Code Wars Exercise Collection</title>
+  </head>
+
+  <body>
+    <h1>Narcissitic Number Exercise</h1>
+    <p>
+      Bob is preparing to pass IQ test. The most frequent task in this test is to find out which one of the given numbers differs from the others. Bob observed that one number usually differs from the others in evenness. Help Bob — to check his answers, he needs a program that among the given numbers finds one that is different in evenness, and return a position of this number.
+      </br></br>
+      ! Keep in mind that your task is to help Bob solve a real IQ test, which means indexes of the elements start from 1 (not 0)
+      </br></br>
+      ##Examples :
+      </br></br>
+      iqTest("2 4 7 8 10") => 3 // Third number is odd, while the rest of the numbers are even.
+      </br></br>
+      iqTest("1 2 1 1") => 2 // Second number is even, while the rest of the numbers are odd.
+    </p>
+    <h2>Hit the button below to show my results</h2>
+    <p>Example: What is the position of the number not like the others of this list of numbers: </br>
+      ("2 4 7 8 10 12 14 18 20 24 30 50")
+    ?</p>
+
+    <button onclick="iqTest()">Submit</button>
+    <p id="demo"></p>
+
+    <script>
+    function iqTest(numbers){
+      var numbers = "2 4 7 8 10 12 14 18 20 24 30 50";
+      var numberSplit = numbers.split(" ");
+      var even = 0;
+      var odd = 0;
+      var evenMarker = 0;
+      var oddMarker = 0;
+
+        for (var index = 0; index < numberSplit.length; index++)
+          {
+            var isEven = (numberSplit[index] % 2 == 0) ? true: false;
+            var evenOddCounter = (isEven == true) ? even++: odd++;
+              if (isEven)
+                {
+                  if (numberSplit[index + 1] % 2 == 0 && odd == 1)
+                    {
+                      var answer = index;
+                      break;
+                    }
+                }
+
+                if (!isEven)
+                  {
+                    if (numberSplit[index + 1] % 2 == 1 && even == 1)
+                      {
+                        var answer = index;
+                        break;
+                      }
+                  }
+
+          }
+
+        if (even > 1 && numberSplit[numberSplit.length - 1] % 2 == 1)
+          {
+            answer = numberSplit.length;
+          }
+
+        if (odd > 1 && numberSplit[numberSplit.length - 1] % 2 == 0)
+          {
+            answer = numberSplit.length;
+          }
+
+        if (even > 1 && numberSplit[numberSplit.length - 2] % 2 == 1)
+          {
+            answer = numberSplit.length - 1;
+          }
+
+        if (odd > 1 && numberSplit[numberSplit.length - 2] % 2 == 0)
+          {
+            answer = numberSplit.length - 1;
+          }
+    document.getElementById('demo').innerHTML = answer;
+    
+    return answer
+}
+</script>
+  </body>
+</html>

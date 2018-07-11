@@ -22,6 +22,11 @@ def new_member_checker_exercise():
 def narcissistic_number_exercise():
     return render_template('narcissisticnumber.html')
 
+#IQ Test Exercise Page
+@app.route('/iqtest')
+def iq_test():
+    return render_template('iqtest.html')
+
 #404 Page in case I make a mistake and delete a page.
 @app.errorhandler(404)
 def page_not_found(e):
