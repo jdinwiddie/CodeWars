@@ -12,7 +12,7 @@ This is used for personal growth; however, you are welcome to check out my code.
 
 * [Requirements](#requirements)
 * [Instructions](#instructions)
-* [List of Exercises](#listofexercises)
+* [List of Exercises](#list of exercises)
 * [Creator](#creators)
 
 ## Requirements:
