@@ -1,4 +1,4 @@
-# Daily Javascript Codewars Exercises
+# Javascript Codewars Exercises
 
 This project is a personal project to keep me improving my programming skills.
 CodeWars is a website that has programmers post challenges.  You can complete as many
