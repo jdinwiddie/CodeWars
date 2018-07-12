@@ -24,6 +24,7 @@ This is used for personal growth; however, you are welcome to check out my code.
   * [New Member Checker](https://github.com/jdinwiddie/CodeWars/blob/master/templates/newMember.html)
   * [Narcissitic Number Checker](https://github.com/jdinwiddie/CodeWars/blob/master/templates/narcissisticnumber.html)
   * [IQ Test Number Finder](https://github.com/jdinwiddie/CodeWars/blob/master/templates/iqtest.html)
+  * [Camel Case Creator](https://github.com/jdinwiddie/CodeWars/blob/master/templates/camelcase.html)
 
 ## Instructions:
 * This is more just used as a coding sample, but if you want the application to run, follow the steps below:
