@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Code Wars Exercise Collection</title>
+  </head>
+
+  <body>
+    <h1>Camel Case Exercise</h1>
+    <p>
+      Write simple .camelCase method (camel_case function in PHP, CamelCase in C# or camelCase in Java) for strings. All words must have their first letter capitalized without spaces.
+      For instance: </br></br>
+      "hello case".camelCase() => HelloCase
+      </br></br>
+      "camel case word".camelCase() => CamelCaseWord
+      </br></br>
+      Don't forget to rate this kata! Thanks :)
+
+    <h2>Hit the button below to show my results</h2>
+    <p>Example: Turn "camel case word" into camel case.</p>
+
+    <button onclick="camelCase()">Submit</button>
+    <p id="demo"></p>
+
+    <script>
+      function camelCase(string){
+        var string = "camel case word";
+        var separateWords = string.split(" ");
+        var removeSpaces = separateWords.filter(separateWord => separateWord != '');
+        var letters;
+        var answer = [];
+
+          for (var index = 0; index < removeSpaces.length; index++)
+            {
+               letters = removeSpaces[index];
+               letters = letters.charAt(0).toUpperCase() + letters.slice(1);
+               answer[index] = letters;
+            }
+            answer = answer.join('');
+            document.getElementById('demo').innerHTML = answer;
+            return answer
+        }
+    </script>
+  </body>
+</html>
