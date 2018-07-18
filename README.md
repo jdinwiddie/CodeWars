@@ -6,6 +6,9 @@ as you like, but my goal is to complete one when I'm burned out of my other proj
 as the background originally in hopes to throw in some SQL exercises as well, but
 I might not end up doing that.  I'm just keeping all my doors open right now.
 
+**UPDATE 07/18/18**
+I decided to remove the Flask application portion because this is going to just be for Javascript.  I will make another project file when I decide to do SQL exercises.  
+
 This is used for personal growth; however, you are welcome to check out my code.  I publish each exercise in the [Exercises](#exercises) section.
 
 ## Table of Contents:
@@ -16,9 +19,7 @@ This is used for personal growth; however, you are welcome to check out my code.
 * [Creator](#creators)
 
 ## Requirements:
-  * Google Chrome or Mozilla Firefox Installed.
-  * Virtualbox installed.
-  * Vagrant Virtual Machine Installed.
+  * Web Browser (Google Chrome or Mazilla Firefox preferred.)
 
 ## Exercises:
   * [New Member Checker](https://github.com/jdinwiddie/CodeWars/blob/master/templates/newMember.html)
@@ -28,13 +29,8 @@ This is used for personal growth; however, you are welcome to check out my code.
   * [Password Checker](https://github.com/jdinwiddie/CodeWars/blob/master/templates/passwordchecker.html)
 
 ## Instructions:
-* This is more just used as a coding sample, but if you want the application to run, follow the steps below:
-* Download Project directory.  
-* Launch Vagrant virtual machine.
-* Navigate to the CodeWars Directory.
-* Run command: python Main.py
-* Open up Web Browser
-* type into search bar: http://localhost:5000
+* Clone or download project directory.
+* Open desired exercise in the browser of your choice.
 
 ## Creators:
 
