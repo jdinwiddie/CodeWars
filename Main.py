@@ -32,6 +32,11 @@ def iq_test():
 def camel_case_exercise():
     return render_template('camelcase.html')
 
+#Password Checker
+@app.route('/passwordchecker')
+def password_checker():
+    return render_template('passwordchecker.html')
+
 #404 Page in case I make a mistake and delete a page.
 @app.errorhandler(404)
 def page_not_found(e):
