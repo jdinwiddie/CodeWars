@@ -22,15 +22,14 @@
       Error checking for text strings or other invalid inputs is not required, only valid integers will be passed into the function.
       </br></br></br>
     </p>
-    <h2>Hit the button below to show my results</h2>
-    <p>Example: Is number 371 a narcissistic number?</p>
-
+    <h2>Enter a number to see if it is narcissistic.</h2>
+    <input type="text" id="answer" placeholder="Example: 371">
     <button onclick="narcissistic()">Submit</button>
     <p id="demo"></p>
 
     <script>
-      function narcissistic( value ) {
-        var value = 371;
+      function narcissistic() {
+        var value = document.getElementById('answer').value;
         var integerString = value.toString();
         var sumOfNumbers = 0;
         var toNumber;
@@ -40,7 +39,7 @@
               toNumber = Number(integerString[index]);
               sumOfNumbers += Math.pow(toNumber, integerString.length);
             }
-        var forDisplayOnly = (sumOfNumbers === value) ? true : false;
+        var forDisplayOnly = (sumOfNumbers == value) ? true : false;
         document.getElementById('demo').innerHTML = forDisplayOnly;
 
         return forDisplayOnly

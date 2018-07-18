@@ -15,15 +15,14 @@
       </br></br>
       Don't forget to rate this kata! Thanks :)
 
-    <h2>Hit the button below to show my results</h2>
-    <p>Example: Turn "camel case word" into camel case.</p>
-
+    <h2>Enter words to make them camel case!</h2>
+    <input type="text" id="answer" placeholder="Example: camel case">
     <button onclick="camelCase()">Submit</button>
     <p id="demo"></p>
 
     <script>
-      function camelCase(string){
-        var string = "camel case word";
+      function camelCase(){
+        var string = document.getElementById("answer").value;
         var separateWords = string.split(" ");
         var removeSpaces = separateWords.filter(separateWord => separateWord != '');
         var letters;
@@ -36,9 +35,10 @@
                answer[index] = letters;
             }
             answer = answer.join('');
-            document.getElementById('demo').innerHTML = answer;
+            document.getElementById("demo").innerHTML = answer;
             return answer
         }
+
     </script>
   </body>
 </html>

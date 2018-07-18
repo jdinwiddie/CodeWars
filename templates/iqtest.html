@@ -17,17 +17,15 @@
       </br></br>
       iqTest("1 2 1 1") => 2 // Second number is even, while the rest of the numbers are odd.
     </p>
-    <h2>Hit the button below to show my results</h2>
-    <p>Example: What is the position of the number not like the others of this list of numbers: </br>
-      ("2 4 7 8 10 12 14 18 20 24 30 50")
-    ?</p>
+    <h2>Enter a list of numbers with only one even or only one odd number.  This program will give you the location of the one number.</h2>
 
+    <input type="text" id="answer" placeholder="Example: 2 4 7 8 10">
     <button onclick="iqTest()">Submit</button>
     <p id="demo"></p>
 
     <script>
     function iqTest(numbers){
-      var numbers = "2 4 7 8 10 12 14 18 20 24 30 50";
+      var numbers = document.getElementById("answer").value;
       var numberSplit = numbers.split(" ");
       var even = 0;
       var odd = 0;
