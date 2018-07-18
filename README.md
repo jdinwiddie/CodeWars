@@ -21,16 +21,17 @@ This is used for personal growth; however, you are welcome to check out my code.
 ## Requirements:
   * Web Browser (Google Chrome or Mazilla Firefox preferred.)
 
+
+## Instructions:
+  * Clone or download project directory.
+  * Open desired exercise in the browser of your choice.
+
 ## Exercises:
   * [New Member Checker](https://github.com/jdinwiddie/CodeWars/blob/master/templates/newMember.html)
   * [Narcissitic Number Checker](https://github.com/jdinwiddie/CodeWars/blob/master/templates/narcissisticnumber.html)
   * [IQ Test Number Finder](https://github.com/jdinwiddie/CodeWars/blob/master/templates/iqtest.html)
   * [Camel Case Creator](https://github.com/jdinwiddie/CodeWars/blob/master/templates/camelcase.html)
   * [Password Checker](https://github.com/jdinwiddie/CodeWars/blob/master/templates/passwordchecker.html)
-
-## Instructions:
-* Clone or download project directory.
-* Open desired exercise in the browser of your choice.
 
 ## Creators:
 
