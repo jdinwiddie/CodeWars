@@ -2,7 +2,7 @@
 
 This project is a personal project to keep me improving my programming skills.
 CodeWars is a website that has programmers post challenges.  You can complete as many
-as you like, but my goal is to complete one when I am out of ideas for other projects.  I used Python/Flask
+as you like, but my goal is to complete one when I'm burned out of my other projects.  I used Python/Flask
 as the background originally in hopes to throw in some SQL exercises as well, but
 I might not end up doing that.  I'm just keeping all my doors open right now.
 
@@ -25,6 +25,7 @@ This is used for personal growth; however, you are welcome to check out my code.
   * [Narcissitic Number Checker](https://github.com/jdinwiddie/CodeWars/blob/master/templates/narcissisticnumber.html)
   * [IQ Test Number Finder](https://github.com/jdinwiddie/CodeWars/blob/master/templates/iqtest.html)
   * [Camel Case Creator](https://github.com/jdinwiddie/CodeWars/blob/master/templates/camelcase.html)
+  * [Password Checker](https://github.com/jdinwiddie/CodeWars/blob/master/templates/passwordchecker.html)
 
 ## Instructions:
 * This is more just used as a coding sample, but if you want the application to run, follow the steps below:
