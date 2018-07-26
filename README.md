@@ -32,6 +32,7 @@ This is used for personal growth; however, you are welcome to check out my code.
   * [IQ Test Number Finder](https://github.com/jdinwiddie/CodeWars/blob/master/templates/iqtest.html)
   * [Camel Case Creator](https://github.com/jdinwiddie/CodeWars/blob/master/templates/camelcase.html)
   * [Password Checker](https://github.com/jdinwiddie/CodeWars/blob/master/templates/passwordchecker.html)
+  * [Human Readable Number Converter](https://github.com/jdinwiddie/CodeWars/blob/master/templates/humanreadabletime.html)
 
 ## Creators:
 
