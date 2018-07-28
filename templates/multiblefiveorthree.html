@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Code Wars Exercise Collection</title>
+  </head>
+
+  <body>
+    <h1>Multible of Five or Three Exercise</h1>
+    If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+  </br></br>
+    Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in.
+  </br></br>
+    Note: If the number is a multiple of both 3 and 5, only count it once.
+</br></br>
+    Courtesy of ProjectEuler.net
+
+    <h2>Enter a positive number!</h2>
+    <input type="text" id="answer" placeholder="Example: 10">
+    <button onclick="multibleOfFiveOrThree()">Submit</button>
+    <p id="demo"></p>
+
+    <script>
+      function multibleOfFiveOrThree() {
+        var number = document.getElementById("answer").value;
+        var answer = 0;
+
+          for (let index = 0; index < number; index++)
+            {
+              var ismultibleOfThree = (index % 3 == 0) ? true: false,
+                  ismultibleOfFive = (index % 5 == 0) ? true: false;
+
+                if (ismultibleOfThree && !ismultibleOfFive)
+                  {
+                    answer += index;
+                  }
+
+                if (!ismultibleOfThree && ismultibleOfFive)
+                  {
+                    answer += index;
+                  }
+
+                if (ismultibleOfThree && ismultibleOfFive)
+                  {
+                    answer += index;
+                  }
+            }
+            document.getElementById("demo").innerHTML = answer;
+            return answer
+      }
+    </script>
+  </body>
+</html>
