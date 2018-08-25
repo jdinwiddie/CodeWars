@@ -4,7 +4,7 @@ This project is a personal project to keep me improving my programming skills.
 CodeWars is a website that has programmers post challenges.  You can complete as many
 as you like, but my goal is to complete one when I'm burned out of my other projects.  I used Python/Flask
 as the background originally in hopes to throw in some SQL exercises as well, but
-I might not end up doing that.  I'm just keeping all my doors open right now.
+I might not end up doing that.  
 
 **UPDATE 07/18/18**
 I decided to remove the Flask application portion because this is going to just be for Javascript.  I will make another project file when I decide to do SQL exercises.  
